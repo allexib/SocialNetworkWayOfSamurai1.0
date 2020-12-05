@@ -9,6 +9,7 @@ import News from "./components/News/News";
 import Music from "./components/Music/Music";
 import {BrowserRouter, Route} from "react-router-dom";
 
+let SomeComponent = () => <Dialogs />
 
 const App = () => {
     return (
@@ -18,10 +19,15 @@ const App = () => {
                 <Navbar/>
 
                 <div class='app-wrapper-content'>
-                    <Route path='/dialogs' component={Dialogs}/>
-                    <Route path='/profile' component={Profile}/>
-                    <Route path='/news' component={News}/>
-                    <Route path='/music' component={Music}/>
+                    {/*<Route path='/dialogs' component={Dialogs}/>*/}
+                    {/*<Route path='/profile' component={Profile}/>*/}
+                    {/*<Route path='/news' component={News}/>*/}
+                    {/*<Route path='/music' component={Music}/>*/}
+
+                    <Route path='/dialogs' render={ SomeComponent }/>
+                    <Route path='/profile' render={ () => <Profile />}/>
+                    <Route path='/news' render={ () => <News />}/>
+                    <Route path='/music' render={ () => <Music />}/>
                     {/*/!*<Dialogs/>*!/*/}
                     {/*<Profile />*/}
                 </div>
