@@ -1,5 +1,6 @@
 import React from 'react';
 import s from './Post.module.css';
+import MyPostsContainer from "../../../../redux/profile-reducer";
 
 const Post = (props) => {
 
