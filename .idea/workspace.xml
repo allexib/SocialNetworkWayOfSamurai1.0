@@ -2,13 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0f2fef-b33d-4b47-b2d2-6213e209993c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/redux-store.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-kabzda-1/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/state.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/store.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -50,21 +53,28 @@
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
-              <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/index.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="Dialogs.jsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+              <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <folding>
+                <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Dialogs.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -72,15 +82,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="state.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/state.js">
+      <file leaf-file-name="store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/store.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
+            <state relative-caret-position="160">
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="29" selection-end-column="10" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
-                <element signature="e#229#584#0" />
-                <element signature="e#607#1063#0" />
+                <element signature="e#250#538#0" />
+                <element signature="e#1171#1202#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redux-store.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/redux-store.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,8 +111,11 @@
       <file leaf-file-name="profile-reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+            <state relative-caret-position="128">
+              <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+              <folding>
+                <element signature="e#129#417#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,8 +123,8 @@
       <file leaf-file-name="sidebar-reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="112">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -107,8 +132,8 @@
       <file leaf-file-name="dialogs-reducer.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="320">
+              <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -126,6 +151,7 @@
     <findStrings>
       <find>navba</find>
       <find>k</find>
+      <find>post</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -146,13 +172,16 @@
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileInfo.jsx" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileInfo.module.css" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.module.css" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.jsx" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.module.css" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/state.js" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.jsx" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/state.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/store.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/redux-store.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/index.js" />
       </list>
     </option>
   </component>
@@ -205,30 +234,6 @@
               <item name="git-project8" type="462c0819:PsiDirectoryNode" />
               <item name="react-kabzda-1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-project8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-project8" type="462c0819:PsiDirectoryNode" />
-              <item name="react-kabzda-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-project8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-project8" type="462c0819:PsiDirectoryNode" />
-              <item name="react-kabzda-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Profile" type="462c0819:PsiDirectoryNode" />
-              <item name="MyPosts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="git-project8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="git-project8" type="462c0819:PsiDirectoryNode" />
-              <item name="react-kabzda-1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="redux" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -239,7 +244,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="F:/react-way-of-samurai" />
     <property name="settings.editor.selected.configurable" value="terminal" />
   </component>
   <component name="RecentsManager">
@@ -285,12 +290,12 @@
       <workItem from="1606891861153" duration="10525000" />
       <workItem from="1606983615975" duration="12700000" />
       <workItem from="1607159915636" duration="1206000" />
-      <workItem from="1607681544461" duration="3452000" />
+      <workItem from="1607681544461" duration="8540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35576000" />
+    <option name="totallyTimeSpent" value="40664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1629" y="110" width="931" height="1024" extended-state="0" />
@@ -300,11 +305,11 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32762313" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3267974" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32897604" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32897604" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,16 +351,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.module.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -625,53 +620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="22" column="38" lean-forward="true" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/state.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-            <element signature="e#229#584#0" />
-            <element signature="e#607#1063#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -680,10 +632,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Dialogs/Dialogs.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="368">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/profile-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="13" column="44" selection-start-line="13" selection-start-column="44" selection-end-line="13" selection-end-column="44" />
+          <folding>
+            <element signature="e#129#417#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/dialogs-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="44" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/sidebar-reducer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/redux-store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/store.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#47#0" expanded="true" />
+            <element signature="e#250#538#0" />
+            <element signature="e#1171#1202#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
