@@ -10,24 +10,21 @@ import Music from "./components/Music/Music";
 import {BrowserRouter, Route} from "react-router-dom";
 import DialogsContainer from "./components/Dialogs/DialogsContainer";
 
-let SomeComponent = () => <Dialogs/>
 
-const App = (props) => {
-
-
+const App = () => {
     return (
         <div className='app-wrapper'>
             <Header/>
             <Navbar/>
-
             <div className='app-wrapper-content'>
                 <Route path='/dialogs'
-                       render={ () => <DialogsContainer store={props.store} />}/>
+                       render={ () => <DialogsContainer  />}/>
+
                 <Route path='/profile'
-                       render={ () => <Profile
-                           store={props.store} />}/>
-                          {/*profilePage={props.state.profilePage}*/}
-                           {/*dispatch={props.dispatch} />}/>*/}
+                       render={ () => <Profile  />}/>
+                          {/*// profilePage={props.state.profilePage}*/}
+                          {/*//  dispatch={props.dispatch} />}/>*/}
+
                 <Route path='/news' render={() => <News/>}/>
                 <Route path='/music' render={() => <Music/>}/>
             </div>
