@@ -4,6 +4,8 @@ import styles from './users.module.css';
 let Users = (props) => {
 
     if (props.users.length === 0) {
+
+        // axios.get("https://social-network.samuraijs.com/api/1.0/users");
         props.setUsers([
                 {
                     id: 1,
