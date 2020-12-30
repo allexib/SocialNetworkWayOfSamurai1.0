@@ -9,6 +9,7 @@ import * as axios from "axios/index";
 import Users from "./Users";
 import Preloader from "../common/Preloader/Preloader";
 import {usersAPI} from "../../api/api";
+import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 
 
 
@@ -48,6 +49,8 @@ let mapStateToProps = (state) => {
         followingInProgress: state.usersPage.followingInProgress
     }
 }
-export default connect(mapStateToProps,
+
+
+export default withAuthRedirect (connect(mapStateToProps,
     { follow, unfollow, setCurrentPage,
-        toggleFollowingProgress,getUsers })(UsersContainer);
+        toggleFollowingProgress,getUsers })(UsersContainer));
