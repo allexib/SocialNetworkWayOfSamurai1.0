@@ -5,11 +5,8 @@ import {
     setCurrentPage,
     unfollow, toggleFollowingProgress, getUsers
 } from "../../redux/users-reducer";
-import * as axios from "axios/index";
 import Users from "./Users";
 import Preloader from "../common/Preloader/Preloader";
-import {usersAPI} from "../../api/api";
-import {withAuthRedirect} from "../../hoc/withAuthRedirect";
 import {compose} from "redux";
 
 
