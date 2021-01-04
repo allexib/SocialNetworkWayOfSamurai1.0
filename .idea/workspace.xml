@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a0f2fef-b33d-4b47-b2d2-6213e209993c" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/react-kabzda-1/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/components/Users/UsersContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/components/Users/UsersContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js" beforeDir="false" afterPath="$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +18,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ProfileContainer.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="464">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UsersContainer.jsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Users/UsersContainer.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+            <state relative-caret-position="500">
+              <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -32,20 +48,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users-reducer.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="users-selectors.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="users-selectors.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
               <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users-reducer.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
             </state>
           </provider>
         </entry>
@@ -118,11 +134,11 @@
         <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/app-reducer.js" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/redux-store.js" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/App.js" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Users/Users.jsx" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js" />
-        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js" />
         <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Users/UsersContainer.jsx" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx" />
+        <option value="$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js" />
       </list>
     </option>
   </component>
@@ -219,7 +235,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="userc&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Users/UsersContainer.jsx&#10;users&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Users/Users.jsx&#10;red&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/redux-store.js&#10;head&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Header/HeaderContainer.jsx&#10;hea&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Header/HeaderContainer.jsx&#10;ap&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/App.js&#10;heade&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Header/HeaderContainer.jsx&#10;profi&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx&#10;prof&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx&#10;witha&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/hoc/withAuthRedirect.js&#10;login&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Login/Login.jsx&#10;addme&#9;null&#9;null&#10;addmess&#9;null&#9;null&#10;pro&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/profile-reducer.js&#10;myp&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx&#10;api&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/api/api.js&#10;profile&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/profile-reducer.js&#10;&lt;a href=&quot;/dialogs&quot;&gt;Messages&lt;/a&gt;&#9;null&#9;null&#10;messages&#9;null&#9;null&#10;Nav&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Navbar/Navbar.jsx&#10;app&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/App.js&#10;fullName&#9;null&#9;null&#10;redux&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/redux-store.js&#10;DialogItem&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Dialogs/DialogItem/DialogItem.jsx&#10;my&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx" />
+    <property name="SearchEverywhereHistoryKey" value="prof&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx&#10;userc&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Users/UsersContainer.jsx&#10;users&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Users/Users.jsx&#10;red&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/redux-store.js&#10;head&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Header/HeaderContainer.jsx&#10;hea&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Header/HeaderContainer.jsx&#10;ap&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/App.js&#10;heade&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Header/HeaderContainer.jsx&#10;profi&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx&#10;witha&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/hoc/withAuthRedirect.js&#10;login&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Login/Login.jsx&#10;addme&#9;null&#9;null&#10;addmess&#9;null&#9;null&#10;pro&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/profile-reducer.js&#10;myp&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx&#10;api&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/api/api.js&#10;profile&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/profile-reducer.js&#10;&lt;a href=&quot;/dialogs&quot;&gt;Messages&lt;/a&gt;&#9;null&#9;null&#10;messages&#9;null&#9;null&#10;Nav&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Navbar/Navbar.jsx&#10;app&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/App.js&#10;fullName&#9;null&#9;null&#10;redux&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/redux/redux-store.js&#10;DialogItem&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Dialogs/DialogItem/DialogItem.jsx&#10;my&#9;FILE&#9;file://F:/react/01-first/git-project8/react-kabzda-1/src/components/Profile/MyPosts/MyPosts.jsx" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="F:/react-way-of-samurai" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
@@ -298,16 +314,15 @@
       <workItem from="1609591687020" duration="8541000" />
       <workItem from="1609670697911" duration="5916000" />
       <workItem from="1609683585849" duration="10544000" />
-      <workItem from="1609756318182" duration="2556000" />
+      <workItem from="1609756318182" duration="5549000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="218095000" />
+    <option name="totallyTimeSpent" value="221088000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1576" y="110" width="984" height="1024" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22623967" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -355,12 +370,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/react-kabzda-1/src/index.js</url>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="13" />
     </breakpoint-manager>
   </component>
@@ -489,13 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -679,13 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Users/Users.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -696,27 +691,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js">
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
+        <state relative-caret-position="320">
+          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Profile/ProfileInfo/ProfileContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/components/Users/UsersContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="52" column="42" selection-start-line="52" selection-start-column="42" selection-end-line="52" selection-end-column="42" />
+        <state relative-caret-position="500">
+          <caret line="55" column="4" lean-forward="true" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="4" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-reducer.js">
+    <entry file="file://$PROJECT_DIR$/react-kabzda-1/src/redux/users-selectors.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="76" column="20" lean-forward="true" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="80">
+          <caret line="5" column="39" lean-forward="true" selection-start-line="5" selection-start-column="39" selection-end-line="5" selection-end-column="39" />
         </state>
       </provider>
     </entry>
