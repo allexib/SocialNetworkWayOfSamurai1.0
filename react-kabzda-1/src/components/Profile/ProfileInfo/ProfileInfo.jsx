@@ -5,21 +5,16 @@ import ProfileStatus from "./ProfileStatus";
 import ProfileStatusWithHooks from "./ProfileStatusЦWithHooks";
 
 
-
-const ProfileInfo = (props) => {
-    if (!props.profile) {
-        return <Preloader />
+const ProfileInfo = ({profile, status, updateStatus}) => {
+    if (!profile) {
+        return <Preloader/>
     }
 
     return (
         <div>
-            {/*<div>*/}
-                {/*<img*/}
-                    {/*src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE_uWpeaS6wOoCym0mv8IUPjvLWD_XxMoq0Q&usqp=CAU'/>*/}
-            {/*</div>*/}
             <div className={s.descriptionBlock}>
-                <img src={props.profile.photos.large} />
-                <ProfileStatusWithHooks status={props.status} updateStatus={props.updateStatus}/>
+                <img src={profile.photos.large}/>
+                <ProfileStatusWithHooks status={status} updateStatus={updateStatus}/>
             </div>
 
         </div>
