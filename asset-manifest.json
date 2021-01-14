@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/git-project8/static/css/main.0e0e2464.chunk.css",
+    "main.js": "/git-project8/static/js/main.27e24cf1.chunk.js",
+    "main.js.map": "/git-project8/static/js/main.27e24cf1.chunk.js.map",
+    "runtime-main.js": "/git-project8/static/js/runtime-main.aa9d8d7c.js",
+    "runtime-main.js.map": "/git-project8/static/js/runtime-main.aa9d8d7c.js.map",
+    "static/js/2.0489378b.chunk.js": "/git-project8/static/js/2.0489378b.chunk.js",
+    "static/js/2.0489378b.chunk.js.map": "/git-project8/static/js/2.0489378b.chunk.js.map",
+    "static/css/3.a5d4421b.chunk.css": "/git-project8/static/css/3.a5d4421b.chunk.css",
+    "static/js/3.5ed61009.chunk.js": "/git-project8/static/js/3.5ed61009.chunk.js",
+    "static/js/3.5ed61009.chunk.js.map": "/git-project8/static/js/3.5ed61009.chunk.js.map",
+    "static/css/4.f51849cf.chunk.css": "/git-project8/static/css/4.f51849cf.chunk.css",
+    "static/js/4.885ebf14.chunk.js": "/git-project8/static/js/4.885ebf14.chunk.js",
+    "static/js/4.885ebf14.chunk.js.map": "/git-project8/static/js/4.885ebf14.chunk.js.map",
+    "index.html": "/git-project8/index.html",
+    "static/css/3.a5d4421b.chunk.css.map": "/git-project8/static/css/3.a5d4421b.chunk.css.map",
+    "static/css/4.f51849cf.chunk.css.map": "/git-project8/static/css/4.f51849cf.chunk.css.map",
+    "static/css/main.0e0e2464.chunk.css.map": "/git-project8/static/css/main.0e0e2464.chunk.css.map",
+    "static/js/2.0489378b.chunk.js.LICENSE.txt": "/git-project8/static/js/2.0489378b.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa9d8d7c.js",
+    "static/js/2.0489378b.chunk.js",
+    "static/css/main.0e0e2464.chunk.css",
+    "static/js/main.27e24cf1.chunk.js"
+  ]
+}
